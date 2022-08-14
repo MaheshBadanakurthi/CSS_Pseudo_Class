@@ -1,0 +1,41 @@
+a:link{
+     color:rgb(248, 166, 14);
+     font-weight: bold;
+     cursor:crosshair;
+}
+
+
+a:hover {
+    color: #ff0000;
+    font-size: 22px;
+} 
+
+a:visited{
+    color:rgb(7, 4, 33);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a:active{
+    color:rgba(7, 228, 44, 0.909);
+    font-weight: bold;
+}
+
+div::first-line{    color:greenyellow;
+    background-color: black;
+
+    display:inline-block;
+
+}
+p::first-line{
+    color:brown;
+    background-color: black;
+}
+p::after{
+    content:'**';
+    color: brown;
+}
+p::before{
+    content:'**';
+    color: white;
+}
